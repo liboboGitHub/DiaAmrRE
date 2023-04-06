@@ -2,7 +2,6 @@ import json
 import numpy as np
 import argparse
 
-
 # Evaluation
 
 def softmax(x):
