@@ -180,3 +180,6 @@ def len_to_mask(len_seq, max_len=None):
     for i, l in enumerate(len_seq):
         mask[i, :l] = 1
     return mask
+
+
+
