@@ -7,7 +7,6 @@ from torch.nn import ModuleList
 import torch.nn.functional as F
 
 
-# 判断输入的张量是否为空
 def has_nan(tensor):
     return torch.isnan(tensor).any().item()
 
